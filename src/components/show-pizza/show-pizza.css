@@ -1,0 +1,8 @@
+.spcontainer {
+
+  flex-shrink: 0;
+  display: flex;
+  gap: 63px;
+  margin-left: 192px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,80 @@
+.feedbox {
+  display: flex;
+}
+
+.feedbox__image {
+  background-image: url("/src/assets/images/tasty-pizza.png");
+  width: 1157px;
+  height: 774px;
+  flex-shrink: 0;
+  margin-top: 132px;
+}
+
+/* 
+.feedbox__image__fondo {
+  background-image: url("/src/assets/images/3\ 1.png");
+  width: 1435px;
+  height: 1435px;
+  flex-shrink: 0;
+} */
+.feedbox__image__svg1 {
+  margin-top: 145.2px;
+  margin-left: 110px;
+}
+
+.feedbox__image__svg2 {
+  margin-top: 404px;
+  margin-left: 902px;
+}
+
+.feedbox__text {
+  width: 481px;
+}
+
+.feedbox__text__head {
+  margin-top: 122px;
+}
+
+.feedbox__text div>h1 {
+  /* Head */
+  font-family: Oleo Script;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #B72A23;
+}
+
+.feedbox__card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 296px;
+  height: 307px;
+  gap: 24px;
+}
+
+.feedbox__card .feedbox__card__title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 100% */
+  font-feature-settings: 'clig' off, 'liga';
+  color: #2D2D2D;
+}
+
+
+.feedbox__container {
+  display: flex;
+}
+
+.feedbox__cardsl {
+  margin: 64px 74px 0 0;
+}
+
+.feedbox__cardsr {
+  margin-top: 150px;
+}

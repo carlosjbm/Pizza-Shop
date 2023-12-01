@@ -1,0 +1,37 @@
+.cardpizza {
+  width: 383.496px;
+  height: 534px;
+  gap: 49px;
+}
+
+.cardpizza__img {
+  width: 383.496px;
+  height: 354.431px;
+  flex-shrink: 0;
+}
+
+.img__vector {
+  margin: 156px 0 0 111px;
+}
+
+.img__cardpizza {}
+
+.cardpizza__descript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.descrit__head {
+  /* Text */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 24px;
+  /* 100% */
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga';
+  color: #B72A23;
+}

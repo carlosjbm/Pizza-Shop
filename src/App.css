@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oleo+Script&display=swap');
+
+:root {
+  --Fondo: #F8F7F2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body {
+  width: 1920px;
+  height: 7620px;
+  background-color: var(--Fondo);
+}
+
+h1 {
+  font-family: Oleo Script;
+}
+
+p {
+  font-family: Montserrat;
+}
